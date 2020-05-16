@@ -1,0 +1,1 @@
+python manage.py runserver 0.0.0.0:80 --noreload --settings vs2019_python_django_docker.settings

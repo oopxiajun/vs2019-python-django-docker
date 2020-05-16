@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+此文件由 Web 项目的发布/打包过程使用。可以通过编辑此 MSBuild 文件
+自定义此过程的行为。为了解与此相关的更多内容，请访问 https://go.microsoft.com/fwlink/?LinkID=208121。 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\程序发布\vs2019_python_django_docker</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="app/forms.py">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/migrations/__init__.py">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/models.py">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/static/app/content/bootstrap.css">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/static/app/content/bootstrap.min.css">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/static/app/content/site.css">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/static/app/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/static/app/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/static/app/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/static/app/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/bootstrap.js">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/bootstrap.min.js">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery-1.10.2.intellisense.js">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery-1.10.2.js">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery-1.10.2.min.js">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery-1.10.2.min.map">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery.validate-vsdoc.js">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery.validate.js">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery.validate.min.js">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery.validate.unobtrusive.js">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/modernizr-2.6.2.js">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/respond.js">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/respond.min.js">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/_references.js">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/templates/app/about.html">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/templates/app/contact.html">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/templates/app/index.html">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/templates/app/layout.html">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/templates/app/login.html">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/templates/app/loginpartial.html">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/tests.py">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/views.py">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="app/__init__.py">
+      <publishTime>12/28/2019 18:35:45</publishTime>
+    </File>
+    <File Include="db.sqlite3">
+      <publishTime>05/15/2020 09:20:32</publishTime>
+    </File>
+    <File Include="Django-3.0.6.tar.gz">
+      <publishTime>05/16/2020 12:33:35</publishTime>
+    </File>
+    <File Include="docker-compose.yaml">
+      <publishTime>05/15/2020 13:53:51</publishTime>
+    </File>
+    <File Include="Dockerfile">
+      <publishTime>05/16/2020 14:00:37</publishTime>
+    </File>
+    <File Include="manage.py">
+      <publishTime>05/15/2020 08:14:12</publishTime>
+    </File>
+    <File Include="requirements.txt">
+      <publishTime>05/15/2020 19:30:32</publishTime>
+    </File>
+    <File Include="static/admin/css/autocomplete.css">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/css/base.css">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/css/changelists.css">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/css/dashboard.css">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/css/fonts.css">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/css/forms.css">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/css/login.css">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/css/responsive.css">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/css/responsive_rtl.css">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/css/rtl.css">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/css/vendor/select2/LICENSE-SELECT2.md">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/css/vendor/select2/select2.css">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/css/vendor/select2/select2.min.css">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/css/widgets.css">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/fonts/LICENSE.txt">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/fonts/README.txt">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/fonts/Roboto-Bold-webfont.woff">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/fonts/Roboto-Light-webfont.woff">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/fonts/Roboto-Regular-webfont.woff">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/img/calendar-icons.svg">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/img/gis/move_vertex_off.svg">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/img/gis/move_vertex_on.svg">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-addlink.svg">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-alert.svg">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-calendar.svg">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-changelink.svg">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-clock.svg">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-deletelink.svg">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-no.svg">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-unknown-alt.svg">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-unknown.svg">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-viewlink.svg">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-yes.svg">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/img/inline-delete.svg">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/img/LICENSE">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/img/README.txt">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/img/search.svg">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/img/selector-icons.svg">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/img/sorting-icons.svg">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/img/tooltag-add.svg">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/img/tooltag-arrowright.svg">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/js/actions.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/js/actions.min.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/js/admin/DateTimeShortcuts.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/admin/RelatedObjectLookups.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/autocomplete.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/js/calendar.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/js/cancel.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/js/change_form.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/js/collapse.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/js/collapse.min.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/js/core.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/js/inlines.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/js/inlines.min.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/js/jquery.init.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/js/popup_response.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/js/prepopulate.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/js/prepopulate.min.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/js/prepopulate_init.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/js/SelectBox.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/js/SelectFilter2.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/js/urlify.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/jquery/jquery.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/jquery/jquery.min.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/jquery/LICENSE.txt">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/af.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/ar.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/az.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/bg.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/bn.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/bs.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/ca.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/cs.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/da.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/de.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/dsb.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/el.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/en.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/es.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/et.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/eu.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/fa.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/fi.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/fr.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/gl.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/he.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/hi.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/hr.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/hsb.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/hu.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/hy.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/id.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/is.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/it.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/ja.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/ka.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/km.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/ko.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/lt.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/lv.js">
+      <publishTime>05/16/2020 14:00:43</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/mk.js">
+      <publishTime>05/16/2020 14:00:43</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/ms.js">
+      <publishTime>05/16/2020 14:00:43</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/nb.js">
+      <publishTime>05/16/2020 14:00:43</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/ne.js">
+      <publishTime>05/16/2020 14:00:43</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/nl.js">
+      <publishTime>05/16/2020 14:00:43</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/pl.js">
+      <publishTime>05/16/2020 14:00:43</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/ps.js">
+      <publishTime>05/16/2020 14:00:43</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/pt-BR.js">
+      <publishTime>05/16/2020 14:00:43</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/pt.js">
+      <publishTime>05/16/2020 14:00:43</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/ro.js">
+      <publishTime>05/16/2020 14:00:43</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/ru.js">
+      <publishTime>05/16/2020 14:00:43</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/sk.js">
+      <publishTime>05/16/2020 14:00:43</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/sl.js">
+      <publishTime>05/16/2020 14:00:43</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/sq.js">
+      <publishTime>05/16/2020 14:00:43</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/sr-Cyrl.js">
+      <publishTime>05/16/2020 14:00:43</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/sr.js">
+      <publishTime>05/16/2020 14:00:43</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/sv.js">
+      <publishTime>05/16/2020 14:00:43</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/th.js">
+      <publishTime>05/16/2020 14:00:43</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/tk.js">
+      <publishTime>05/16/2020 14:00:44</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/tr.js">
+      <publishTime>05/16/2020 14:00:44</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/uk.js">
+      <publishTime>05/16/2020 14:00:44</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/vi.js">
+      <publishTime>05/16/2020 14:00:44</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/zh-CN.js">
+      <publishTime>05/16/2020 14:00:44</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/zh-TW.js">
+      <publishTime>05/16/2020 14:00:44</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/LICENSE.md">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/select2.full.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/select2.full.min.js">
+      <publishTime>05/16/2020 14:00:42</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/xregexp/LICENSE.txt">
+      <publishTime>05/16/2020 14:00:44</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/xregexp/xregexp.js">
+      <publishTime>05/16/2020 14:00:44</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/xregexp/xregexp.min.js">
+      <publishTime>05/16/2020 14:00:44</publishTime>
+    </File>
+    <File Include="static/app/content/bootstrap.css">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/app/content/bootstrap.min.css">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/app/content/site.css">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/app/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/app/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/app/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/app/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/app/scripts/bootstrap.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/app/scripts/bootstrap.min.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery-1.10.2.intellisense.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery-1.10.2.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery-1.10.2.min.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery-1.10.2.min.map">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery.validate-vsdoc.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery.validate.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery.validate.min.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery.validate.unobtrusive.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/app/scripts/modernizr-2.6.2.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/app/scripts/respond.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/app/scripts/respond.min.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="static/app/scripts/_references.js">
+      <publishTime>05/16/2020 14:00:41</publishTime>
+    </File>
+    <File Include="vs2019_python_django_docker/settings.py">
+      <publishTime>05/15/2020 08:14:12</publishTime>
+    </File>
+    <File Include="vs2019_python_django_docker/urls.py">
+      <publishTime>05/15/2020 08:14:12</publishTime>
+    </File>
+    <File Include="vs2019_python_django_docker/wsgi.py">
+      <publishTime>05/15/2020 08:14:12</publishTime>
+    </File>
+    <File Include="vs2019_python_django_docker/__init__.py">
+      <publishTime>05/15/2020 08:14:12</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

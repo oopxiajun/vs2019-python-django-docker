@@ -1,0 +1,9 @@
+version: '2'
+services:
+  vs2019pythondjangodocker:
+    build:          #镜像构建
+      context:  .   #构建镜像时所在的资源路径
+      dockerfile: Dockerfile    #构建镜像时需要的dockerfile文件路径
+    ports:
+      - "9999:80"     #端口映射
+    image: vs2019pythondjangodocker:v1.0   #镜像名称和tag
