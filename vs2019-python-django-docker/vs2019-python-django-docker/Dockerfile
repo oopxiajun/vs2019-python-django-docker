@@ -1,4 +1,4 @@
-FROM	python:3.8  
+FROM	python:3.8.3-slim #这儿我们只需要 python3.8的一个精简版就能可以了，减少容器开销和镜像大小  
 RUN		python -m pip install --upgrade pip 
 #RUN		pip install Django==3.0.6
 #COPY	. .
